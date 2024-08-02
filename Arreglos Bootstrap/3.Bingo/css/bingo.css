@@ -1,0 +1,64 @@
+/**
+ * Bingo
+ * Autor: Catalina CF
+ * Fecha: 18 de julio de 2024
+ */
+
+
+ .container{
+   float: left;
+   display:left;
+   width: 500px;
+   height: 500px;
+   margin-left: 550px;
+}
+.color{
+   background-color: red;
+}
+
+.boton-rojo{
+   background-color:orange;
+}
+.boton-morado{
+   background-color:chartreuse;
+}
+.boton-fuscia{
+   background-color: deeppink;
+}
+.boton-azulO{
+   background-color:cadetblue;
+}
+.boton-amarillo{
+   background-color: yellow;
+}
+ .boton-azul{
+   background-color:aqua ;
+ }
+ .boton-rosa{
+   background-color: pink;
+ }
+
+
+.bingo-table th, .bingo-table td {
+   border: 2px solid rgb(253, 221, 226);; /* Color de borde para las celdas */
+}
+.bingo-table th:nth-child(1) {
+   background-color: rgb(253, 221, 226);; /* Color de fondo para la letra B */
+   color: black; /* Color del texto */
+}
+.bingo-table th:nth-child(2) {
+   background-color: rgb(253, 221, 226);; /* Color de fondo para la letra I */
+   color: black;
+}
+.bingo-table th:nth-child(3) {
+   background-color: rgb(253, 221, 226);; /* Color de fondo para la letra N */
+   color: black;
+}
+.bingo-table th:nth-child(4) {
+   background-color: rgb(253, 221, 226);; /* Color de fondo para la letra G */
+   color: black;
+}
+.bingo-table th:nth-child(5) {
+   background-color: rgb(253, 221, 226);; /* Color de fondo para la letra O */
+   color: black;
+}

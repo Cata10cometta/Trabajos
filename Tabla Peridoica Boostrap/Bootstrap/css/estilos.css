@@ -1,0 +1,709 @@
+/*
+estilos de ejercicios con bootstrap
+Autor: Catalina CF
+24 de mayo de 2024
+*/
+
+body{
+    background-image: url(../img/fondo-azul.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.primero{
+    float:left;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    /*width: 310px;*/
+    margin-top: 50px;
+
+}
+.tittle h1{
+    -webkit-text-fill-color: #fc0707;
+    -moz-text-fill-color: #f00a0a;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px ;
+    font-weight: 1000;
+    font-size: 35px;
+
+}
+.fondo h1{
+    -webkit-text-fill-color: #120216;
+    -moz-text-fill-color: #140214;
+    -webkit-text-stroke-color: #fcf6f6;
+    -webkit-text-stroke-width: 1px;
+    font-weight:700;
+}
+.fondoM h1{
+    -webkit-text-fill-color: #0ed1df;
+    -moz-text-fill-color: #14e6e6d7;
+    -webkit-text-stroke-color: #fcf6f6;
+    -webkit-text-stroke-width: 1px;
+    font-weight:700;
+}
+.fondoN h1{
+    -webkit-text-fill-color: #fcffff;
+    -moz-text-fill-color: #f6f8f8d7;
+    -webkit-text-stroke-color: #030303;
+    -webkit-text-stroke-width: 1.5px;
+    font-weight:700;
+}
+.fondoR h1{
+    -webkit-text-fill-color: #fa0b0b;
+    -moz-text-fill-color: #e70c0cd7;
+    -webkit-text-stroke-color: #faf7f7;
+    -webkit-text-stroke-width: 1.5px;
+    font-weight:700;
+}
+
+.celda{
+    /*float: left;*/
+    -Webkit-flex: auto;
+    flex: auto;
+    border: 1px solid #000;
+    width: 54px;
+    height: 60px;
+    margin: 0px;
+    border-radius: 5px;
+}
+.celda:hover{
+    transition: transform 0.2s ease ease-in-out;
+    transform: scale(1.4,1.4);
+}
+.segundo{
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    margin-top: 50px;
+    margin-left: 20px;
+
+}
+
+.celda-2{
+    /*float: left;*/
+    -Webkit-flex: auto;
+    flex: auto;
+    border: 1px solid #000;
+    width: 58px;
+    height: 60px;
+    margin: 0px;
+    border-radius: 5px;
+}
+.celda-2:hover{
+    transition: transform 0.2s ease ease-in-out;
+    transform: scale(1.4,1.4);
+}
+div h1{
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+    color: #fff;
+   
+ }
+ div h2{
+    text-align: right;
+    margin: auto;
+    font-size:14px;
+    color: #f8f4f4;
+ }
+
+ div h4{
+    text-align: center;
+    margin: 1px;
+    margin-top: -5px;
+    font-size: 10px;
+    color: #fff;
+ }
+
+.moverD{
+    margin-right: 30px;
+}
+.uno{
+    width:890px ;
+}
+.dos{
+    width: 550px;
+}
+.tres{
+    width: 500px;
+    float: left;
+    border: 1px solid #000;
+    height: 100px;
+    margin: 0px 500px 0px 600px;
+
+
+}
+
+.noborder{
+    border: none;
+}
+.cuadro{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin: 3px;
+    border: 1px solid #000;
+    margin: 80px 0px 0px 348px;
+    
+}
+.cuadro1{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    margin: 3px;
+    border: 1px solid #000;
+    margin: 80px 0px 0px 555px;
+    color: #fff
+    }
+.cuadro2{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    margin: 3px;
+    border: 1px solid #000;
+    margin: 98px 0px 0px 555px;
+    color: #fff
+}
+.cuadro3{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    margin: 3px;
+    border: 1px solid #000;
+    margin: 115px 0px 0px 555px;
+    color: #fff
+}
+.cuadro4{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    margin: 3px;
+    border: 1px solid #000;
+    margin: 133px 0px 0px 555px;
+    color: #fff
+}
+.cuadro5{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    margin: 3px;
+    border: 1px solid #000;
+    margin: 150px 0px 0px 555px;
+    color: #fff
+}
+.cuadro6{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    margin: 3px;
+    border: 1px solid #000;
+    margin: 167px 0px 0px 555px;
+    color: #fff
+}
+.cuadro7{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    margin: 3px;
+    border: 1px solid #000;
+    margin: 80px 0px 0px 680px;
+    color: #fff
+}
+.cuadro8{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    margin: 3px;
+    border: 1px solid #000;
+    margin: 98px 0px 0px 680px;
+    color: #fff
+}
+.cuadro9{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    margin: 3px;
+    border: 1px solid #000;
+    margin: 115px 0px 0px 680px;
+    color: #fff
+}
+.cuadro10{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    margin: 3px;
+    border: 1px solid #000;
+    margin: 133px 0px 0px 680px;
+    color: #fff
+}
+.cuadro11{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    margin: 3px;
+    border: 1px solid #000;
+    margin: 150px 0px 0px 680px;
+    color: #fff
+}
+.cuadro13{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin: 3px;
+    margin: 80px 0px 0px 240px;  
+    color: #fff;
+}
+.cuadro14{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin: 3px;
+    margin: -105px 0px 0px 210px; 
+    text-align: right;
+}
+.icono{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    margin: 3px;
+    border: none;
+    margin: 170px 0px 0px 665px;
+    color: #080808
+    
+
+}
+.periodos h2{
+    width: 54px;
+    height: 60px;
+    position: absolute;
+    margin: 3px;
+    margin: 150px 0px 0px 80px;
+    text-align: center;
+    transform: rotate(-90deg);
+}
+
+.periodo1{
+    width: 54px;
+    height: 60px;
+    position: absolute;
+    margin: 3px;
+    margin: 80px 0px 0px 65px;
+    text-align: center;
+
+}
+
+.periodo2{
+    width: 54px;
+    height: 60px;
+    position: absolute;
+    margin: 3px;
+    margin: 140px 0px 0px 65px;
+}
+.periodo3{
+    width: 54px;
+    height: 60px;
+    position: absolute;
+    margin: 3px;
+    margin: 200px 0px 0px 65px;
+}
+.periodo4{
+    width: 54px;
+    height: 60px;
+    position: absolute;
+    margin: 3px;
+    margin: 260px 0px 0px 65px;
+}
+.periodo5{
+    width: 54px;
+    height: 60px;
+    position: absolute;
+    margin: 3px;
+    margin: 320px 0px 0px 65px;
+}
+.periodo6{
+    width: 54px;
+    height: 60px;
+    position: absolute;
+    margin: 3px;
+    margin: 380px 0px 0px 65px;
+}
+.periodo7{
+    width: 54px;
+    height: 60px;
+    position: absolute;
+    margin: 440px 0px 0px 65px;
+}
+.numeroP h2{
+    margin-top: 23px;
+    margin-right: 5px;
+}
+
+
+.fondo-violeta{
+    background-color: #6d0653;
+}
+.fondo-morado{
+    background-color: #410d58;
+}
+.fondo-naranja{
+    background-color: #cc6410;
+}
+.fondo-rosa{
+    background-color: #f10f93;
+}
+.fondo-rojo{
+    background-color: #9b0909;
+}
+.fondo-verdeMarino{
+    background-color: #3b796c;
+}
+.fondo-verdeClaro{
+    background-color: #82eb2d;
+}
+.fondo-azul{
+    background-color: #18e2fd;
+}
+
+.fondo-verde{
+    background-color: #1b5808;
+}
+.fondo-verdeManzana{
+    background-color: #6f9b09;
+}
+.fondo-gris{
+    background-color: #9c9898;
+}
+.numero{
+    margin-left: 60px;
+    color: #fff;
+}
+.masa H2{
+    margin-right: 60px;
+    margin-top: -90px;
+    color: #fff;
+
+}
+.nombre h3{
+    text-align: center;
+    font-size: 14px;
+    margin-top: -8px;
+    color: #ffffff;
+}
+.simbolo h1{
+    font-size: 40px;
+    margin-top: -15px;
+    color: #fff
+    
+}
+.energia h3{
+    text-align: left;
+    font-size: 10px;
+    color: #fff
+    
+}
+.configuracion h4{
+    text-align: left;
+    margin-top: -8px;
+    color: #fff
+    
+}
+.estados h6{
+    text-align: right;
+    font-size: 6px;
+    font-weight: 900;
+    color: #fff
+    
+}
+.atomica h3{
+    margin-top: -35px;
+    font-size: 7px;
+    color: #fff
+    
+    
+    
+}
+.ion h5{
+    font-size: 7px;
+    margin-top: -10px;
+    color: #fff
+    
+}
+.electro h5 {
+    font-size: 7px;
+    margin-top: -15px;
+    margin-left: 30px;
+    margin-bottom: -5px;
+    color: #fff
+    
+}
+.oxidacion h6{
+    font-size: 4px;
+    margin-left: 45px;
+    color: #fff
+}
+.electronica h6{
+    font-size: 5px;
+    margin-left: 5px;
+    margin-top: -3px;
+    color: #fff
+
+}
+.masaA h3{
+    font-size: 8px;
+    margin-top: -20px;
+    color: #fff
+}
+.sim h1{
+    margin-top: -10px;
+    color: #fff
+}
+.atom h3{
+    font-size: 10px;
+    margin-top: -30px;
+    color: #fff
+}
+.masaT h3{
+    font-size: 8px;
+    margin-top: -40px;
+    color: #fff
+}
+.masaO h3{
+    font-size: 8px;
+    margin-top: -75px;
+    color: #fff
+}
+.oxidacionE h6{
+    font-size: 5px;
+    margin-left: 45px;
+    color: #fff
+}
+.masaM h3{
+    font-size: 8px;
+    margin-top: -45px;
+    color: #fff
+}
+.nombre h6{
+    font-size: 12px;
+    color: #fff
+}
+.nomp h6{
+    font-size: 6px;
+    margin-top: -10px;
+    color: #fff
+}
+.energiaIon h6{
+    font-size: 8px;
+    margin-top: -10px;
+    
+}
+.k1 h6{
+    font-size: 5px;
+    margin-left: 70px;
+    margin-top: -8px;
+}
+.simboloq h6{
+    font-size: 12px;
+}
+.nombree h6{
+    font-size: 12px;
+}
+.configuracionelec h6{
+    font-size: 8px;
+    margin-top: -5px;
+}
+.estadoOx h6{
+    font-size: 9px;
+    margin-top: 42px;
+}
+.oxi h6{
+    font-size: 7px;
+    margin-top: -7px;
+}
+.masaI h3{
+    font-size: 8px;
+    margin-top: -43px;
+    color: #fff
+}
+.inicial h1{
+    text-align: center;
+    margin-top: -15px;
+    font-size: 25px;
+    color: #fff;
+
+}
+.metales h6{
+    font-size: 10px;
+    margin-left: 20px;
+    width: 100px;
+}
+.metal h6{
+    font-size: 10px;
+    margin-left: 20px;
+}
+.radiactive h6{
+    font-size: 10px;
+    margin-left: 20px;
+    color: #fff;
+    margin-top: -15px;
+    width: 100px;
+}
+
+.celda-2 h5 {
+    color:#000;
+}
+.celda-2 h2 {
+    color:#000;
+}
+.celda-2 h1 {
+    color:#000;
+}
+.celda-2 h4 {
+    color:#000;
+}
+.celda-2  h6 {
+    color:#000;
+}
+.celda-2 h3{
+    color: #000;
+}
+.top h1{
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+    margin-top: -10px;
+}
+.numer h2{
+    text-align: left;
+    margin: auto;
+    font-size:14px;
+    color: #111111;
+}
+.numer2 h2{
+    text-align: right;
+    margin: auto;
+    font-size:14px;
+    color: #111111;
+    margin-top: -17px;
+}
+.letra h4{
+    text-align: center;
+    margin: 1px;
+    margin-top: 5px;
+    font-size: 10px;
+    color: #080808;
+}
+.romanos1 {
+    width: 54px;
+    height: 60px;
+    position: absolute;
+    margin: 93px 0px 0px 118px;
+}
+.romano1 h2{
+   text-align: left;
+    
+}
+.romanos2 {
+    width: 54px;
+    height: 60px;
+    position: absolute;
+    margin: 43px 0px 0px 55px;
+}
+.romanos3 {
+    width: 54px;
+    height: 60px;
+    position: absolute;
+    margin: 161px 0px 0px 110px;
+} 
+.romanos4 {
+    width: 54px;
+    height: 60px;
+    position: absolute;
+    margin: 161px 0px 0px 165px;
+}
+.romanos5 {
+    width: 54px;
+    height: 60px;
+    position: absolute;
+    margin: 161px 0px 0px 220px;
+}
+.romanos6 {
+    width: 54px;
+    height: 60px;
+    position: absolute;
+    margin: 161px 0px 0px 275px;
+}
+.romanos7 {
+    width: 54px;
+    height: 60px;
+    position: absolute;
+    margin: 161px 0px 0px 330px;
+}
+.romanos8 {
+    width: 54px;
+    height: 60px;
+    position: absolute;
+    margin: 161px 0px 0px 385px;
+}
+.romanos9 {
+    width: 54px;
+    height: 60px;
+    position: absolute;
+    margin: 161px 0px 0px 440px;
+}
+.romanos10 {
+    width: 54px;
+    height: 60px;
+    position: absolute;
+    margin: 161px 0px 0px 495px;
+}
+.romanos11 {
+    width: 54px;
+    height: 60px;
+    position: absolute;
+    margin: 161px 0px 0px 550px;
+}
+.romanos12 {
+    width: 54px;
+    height: 60px;
+    position: absolute;
+    margin: 161px 0px 0px 605px;
+}
+.romanos13 {
+    width: 54px;
+    height: 60px;
+    position: absolute;
+    margin: 43px 0px 0px 663px;
+}
+.romanos14 {
+    width: 54px;
+    height: 60px;
+    position: absolute;
+    margin: 43px 0px 0px 721px;
+}
+.romanos15 {
+    width: 54px;
+    height: 60px;
+    position: absolute;
+    margin: 43px 0px 0px 776px;
+}
+.romanos16 {
+    width: 54px;
+    height: 60px;
+    position: absolute;
+    margin: 43px 0px 0px 831px;
+}
+.romanos17 {
+    width: 54px;
+    height: 60px;
+    position: absolute;
+    margin: 43px 0px 0px 886px;
+}
+.romanos18 {
+    width: 54px;
+    height: 60px;
+    position: absolute;
+    margin: -18px 0px 0px 945px;
+}

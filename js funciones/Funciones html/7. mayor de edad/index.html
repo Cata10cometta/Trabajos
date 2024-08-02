@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Si es mayor de edad</title>
+</head>
+<body>
+    <script>
+        let edad;
+        let yearNow;
+        let yearBegin;
+
+        yearNow= prompt("Por favor ingrese el año actual");
+        yearBegin= prompt("Por favor ingrese su año de nacimiento");
+
+        edad= yearNow-yearBegin;
+
+        if(edad>=18){
+            console.log("Es mayor de edad=" +edad+"\n");
+        }
+        else{
+            console.log("Es menor de edad=" +edad+"\n");
+        }
+
+
+    </script>
+</body>
+</html>

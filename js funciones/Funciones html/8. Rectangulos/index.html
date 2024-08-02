@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area Rectangulos</title>
+</head>
+<body>
+    <script>
+        let rectangulo1;
+        let rectangulo2;
+        let base1;
+        let base2;
+        let altura1;
+        let altura2;
+
+        base1= prompt("Por favor ingrese la base del rectangulo 1");
+        altura1= prompt("Por favor ingrese la altura del rectangulo 1");
+        base2= prompt("Por favor ingrese la base del rectangulo 2");
+        altura2= prompt("Por favor ingrese la altura del rectangulo 2");
+
+        rectangulo1= base1*altura1;
+        rectangulo2= base2*altura2;
+
+        if(rectangulo1==rectangulo2){
+            console.log("Son iguales");
+        }
+        else if(rectangulo1>rectangulo2){
+            console.log("El rectangulo 1 es mayor=" +rectangulo1+"\n");
+        }
+        else{
+            console.log("El rectangulo 2 es mayor=" +rectangulo2+"\n");
+        }
+        
+    </script>
+</body>
+</html>

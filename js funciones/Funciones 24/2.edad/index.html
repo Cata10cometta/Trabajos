@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>edad</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="forma row col-10">
+            <div class="formulario col-7">
+                <form class="row g-3 needs-validation" onsubmit="return calcularEdad();" novalidate >
+                    <div class="col-md-12">
+                      <label for="txtFecNac" class="form-label">Fecha </label>
+                      <input type="date" class="form-control" id="txtFecNac" required>
+                      <div class="valid-feedback">
+                        Looks good! 
+                      </div>
+                    </div>
+        
+                    <div class="col-12">
+                      <button class="btn btn-primary" type="submit">Calcular edad <i class="fa-regular fa-calendar-days"></i></button>
+                    </div>
+                  </form>
+            </div>
+            <div class="respuesta col-3">
+                <h4>Respuesta</h4>
+                <div id="edad"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/validate.js"></script>
+    <script src="js/edad.js"></script>
+</body>
+</html>

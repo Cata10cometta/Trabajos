@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de 1 hasta el 5</title>
+</head>
+<body>
+    <script>
+        let contMulti;
+        let contTabla;
+        let multiplicador;
+        let tabla;
+        let contPares=0;
+        let contImpar=0;
+        let resultado;
+        
+        contTabla =1;
+        multiplicador = 5;
+        tabla = 5;
+
+
+        for(contTabla=1; contTabla<=tabla; contTabla++){
+            
+            for(contMulti=1; contMulti<=multiplicador; contMulti++){
+                resultado= contTabla * contMulti;
+                
+            if (resultado % 2 == 0) {
+                    console.log(contTabla + "x" + contMulti + "=" + resultado + "= buzz");
+            contPares=contPares+1;
+        } else {
+            console.log(contTabla+ 'x' + contMulti + '=' + resultado + '= bass');
+            contImpar = contImpar+1;
+        }
+        
+
+}
+
+        }
+console.log("Total de números pares:" + contPares);
+console.log("Total de números impares:" + contImpar);
+        
+            
+       
+            
+           
+
+        
+    </script>
+</body>
+</html>

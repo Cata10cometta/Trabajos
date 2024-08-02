@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numeros Mayor 3</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="forma row col-10">
+            <div class="formulario col-7">
+                <form class="row g-3 needs-validation" onsubmit="return numeroMayor3();" novalidate >
+                    <div class="col-md-12">
+                      <label for="NumeroUno" class="form-label">Numero Uno</label>
+                      <input type="number" class="form-control" id="NumeroUno" required>
+                      <div class="valid-feedback">
+                        Looks good! 
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="NumeroDos" class="form-label">Numero Dos</label>
+                        <input type="number" class="form-control" id="NumeroDos" required>
+                        <div class="valid-feedback">
+                          Looks good! 
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <label for="NumeroTres" class="form-label">Numero Tres</label>
+                        <input type="number" class="form-control" id="NumeroTres" required>
+                        <div class="valid-feedback">
+                          Looks good! 
+                        </div>
+                      </div>
+                    
+  
+
+                    <div class="col-12">
+                      <button class="btn btn-primary" type="submit">Calcular el Numero Mayor <i class="fa-solid fa-calculator"></i></button>
+                    </div>
+                  </form>
+            </div>
+            <div class="respuesta col-3">
+                <h4>Respuesta</h4>
+                <div id="numeroMayor"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/validate.js"></script>
+    <script src="js/numero3.js"></script>
+</body>
+</html>
